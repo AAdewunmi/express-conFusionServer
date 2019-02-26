@@ -22,6 +22,7 @@ var commentSchema = new Schema({
     timestamps: true
 });
 
+
 const dishSchema = new Schema({
     name: {
         type: String,
@@ -57,9 +58,6 @@ const dishSchema = new Schema({
 }, {
     timestamps: true
 });// dishSchema 
-
-
-
 
 var Dishes = mongoose.model('Dish', dishSchema);
 
